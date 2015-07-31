@@ -14,6 +14,8 @@
 		3B7E16CD1B6B307A00F2C400 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E16CC1B6B307A00F2C400 /* Images.xcassets */; };
 		3B7E16D01B6B307A00F2C400 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7E16CE1B6B307A00F2C400 /* LaunchScreen.xib */; };
 		3B7E16DC1B6B307A00F2C400 /* BubbleWindowSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E16DB1B6B307A00F2C400 /* BubbleWindowSliderTests.m */; };
+		3B7E16F01B6B4A4D00F2C400 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E16ED1B6B4A4D00F2C400 /* CustomSlider.m */; };
+		3B7E16F11B6B4A4D00F2C400 /* GBSliderBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E16EF1B6B4A4D00F2C400 /* GBSliderBubbleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3B7E16D51B6B307A00F2C400 /* BubbleWindowSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleWindowSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7E16DA1B6B307A00F2C400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B7E16DB1B6B307A00F2C400 /* BubbleWindowSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleWindowSliderTests.m; sourceTree = "<group>"; };
+		3B7E16EC1B6B4A4D00F2C400 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		3B7E16ED1B6B4A4D00F2C400 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		3B7E16EE1B6B4A4D00F2C400 /* GBSliderBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSliderBubbleView.h; sourceTree = "<group>"; };
+		3B7E16EF1B6B4A4D00F2C400 /* GBSliderBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSliderBubbleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		3B7E16BE1B6B307A00F2C400 /* BubbleWindowSlider */ = {
 			isa = PBXGroup;
 			children = (
+				3B7E16EB1B6B4A4D00F2C400 /* GBSliderBubbleViewClass */,
 				3B7E16C31B6B307A00F2C400 /* AppDelegate.h */,
 				3B7E16C41B6B307A00F2C400 /* AppDelegate.m */,
 				3B7E16C61B6B307A00F2C400 /* ViewController.h */,
@@ -117,6 +124,17 @@
 				3B7E16DA1B6B307A00F2C400 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B7E16EB1B6B4A4D00F2C400 /* GBSliderBubbleViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				3B7E16EC1B6B4A4D00F2C400 /* CustomSlider.h */,
+				3B7E16ED1B6B4A4D00F2C400 /* CustomSlider.m */,
+				3B7E16EE1B6B4A4D00F2C400 /* GBSliderBubbleView.h */,
+				3B7E16EF1B6B4A4D00F2C400 /* GBSliderBubbleView.m */,
+			);
+			path = GBSliderBubbleViewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7E16F11B6B4A4D00F2C400 /* GBSliderBubbleView.m in Sources */,
 				3B7E16C81B6B307A00F2C400 /* ViewController.m in Sources */,
 				3B7E16C51B6B307A00F2C400 /* AppDelegate.m in Sources */,
 				3B7E16C21B6B307A00F2C400 /* main.m in Sources */,
+				3B7E16F01B6B4A4D00F2C400 /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  ViewController.h
 //  BubbleWindowSlider
 //
-//  Created by yellomobile on 2015. 7. 31..
+//  Created by 박광범 on 2015. 7. 31..
 //  Copyright (c) 2015년 YelloMobile. All rights reserved.
 //
 

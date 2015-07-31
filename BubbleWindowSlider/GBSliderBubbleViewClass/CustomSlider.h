@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CustomSlider.h
 //  BubbleWindowSlider
 //
 //  Created by 박광범 on 2015. 7. 31..
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface CustomSlider : UISlider
 
 @end
-
