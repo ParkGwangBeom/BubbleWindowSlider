@@ -21,10 +21,10 @@
 
 -(void)awakeFromNib{
     [super awakeFromNib];
-    [self setBase];
+    [self defaults];
 }
 
--(void)setBase{
+-(void)defaults{
     //Default init
     _thumbImage = [UIImage imageNamed:@"ThumbImage"];
     _minTrackImage = [UIImage imageNamed:@"MinTrack"];
