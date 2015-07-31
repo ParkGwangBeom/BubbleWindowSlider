@@ -87,6 +87,9 @@
     [self addSubview:self.bubbleView];
     
     [self performSelector:@selector(bubbleViewAnimation) withObject:self afterDelay:1.0f];
+    
+    
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, _slider.frame.origin.y + _slider.frame.size.height + 20.0f);
 }
 
 - (void)clearView
