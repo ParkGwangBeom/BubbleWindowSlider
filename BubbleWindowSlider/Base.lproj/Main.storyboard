@@ -14,7 +14,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" id="OJf-7L-Skz" customClass="GBSliderBubbleView">
                                 <rect key="frame" x="0.0" y="181" width="320" height="116"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>

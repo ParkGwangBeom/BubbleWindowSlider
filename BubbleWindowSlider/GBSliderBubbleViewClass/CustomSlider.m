@@ -19,7 +19,7 @@
 }
 
 -(void)awakeFromNib{
-    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, 10);
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, _trackHeight);
 }
 
 - (CGRect)trackRectForBounds:(CGRect)bounds

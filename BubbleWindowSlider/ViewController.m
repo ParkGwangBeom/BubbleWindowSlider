@@ -21,6 +21,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.GBSliderBubbleView.delegate = self;
+    self.GBSliderBubbleView.maxValue = 1000;
+    [self.GBSliderBubbleView renderSliderBubbleView];
 }
 
 - (void)didReceiveMemoryWarning {

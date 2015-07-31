@@ -10,4 +10,6 @@
 
 @interface CustomSlider : UISlider
 
+@property (nonatomic, assign) float trackHeight;
+
 @end
